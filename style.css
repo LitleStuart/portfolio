@@ -8,6 +8,13 @@ body {
     background: #f2f4f6 url("img/hero-bg.jpg") no-repeat top center;
 }
 
+h3 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
 .container {
     max-width: 928px;
     margin: 0 auto;
@@ -26,7 +33,6 @@ body {
 }
 
 .page-header a {
-    margin-left: 56px;
     color: #288be6;
     text-decoration: none;
     background-repeat: no-repeat;
@@ -34,13 +40,15 @@ body {
 }
 
 .header-email {
+    background-image: url(img/icon-email-header.svg);
+    margin-left: 56px;
     padding-left: 30px;
-    background-image: url("img/icon-email-header.svg");
 }
 
 .header-phone {
+    background-image: url(img/icon-phone-header.svg);
+    margin-left: 56px;
     padding-left: 25px;
-    background-image: url("img/icon-phone-header.svg");
 }
 
 .hero-image {
@@ -54,7 +62,7 @@ body {
 
 .heading {
     margin: 0 0 16px;
-    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+    font-family: "Old Standard TT", "Times", "Times New Roman", sans-serif;
     font-size: 88px;
     line-height: 96px;
     font-weight: 400;
@@ -66,30 +74,23 @@ body {
     line-height: 48px;
 }
 
-.intro {
-    margin: 0 0 120px;
-}
-
 .subheading {
     margin: 0 0 56px;
-    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+    text-align: center;
     font-size: 64px;
     line-height: 80px;
     font-weight: 400;
-    text-align: center;
+    font-family: "Old Standard TT", "Times", "Times New Roman", sans-serif;
+}
+
+.intro,
+.portfolio {
+    margin: 0 0 120px;
 }
 
 .user-image {
-    margin: 0 0 32px;
     text-align: center;
-}
-
-.intro h3,
-.portfolio h3 {
-    margin: 0 0 12px;
-    font-size: 28px;
-    line-height: 40px;
-    font-weight: 500;
+    margin: 0 0 60px;
 }
 
 .intro p {
@@ -97,53 +98,36 @@ body {
 }
 
 .skills-list {
-    margin: 0;
-    padding: 0;
-}
-
-.skills-list dt {
-    padding-left: 32px;
-    background-repeat: no-repeat;
-    background-position: left;
+    text-align: left;
 }
 
 .skill-html {
-    background-image: url("img/icon-html.svg");
+    background: url(img/icon-html.svg) left no-repeat;
+    padding-left: 35px;
+    font-weight: 500;
 }
 
 .skill-css {
-    background-image: url("img/icon-css.svg");
+    background: url(img/icon-css.svg) left no-repeat;
+    padding-left: 35px;
+    font-weight: 500;
 }
 
 .level {
-    margin: 4px 0 16px;
-    padding: 0;
-    height: 14px;
-    font-size: 0;
-    background-color: #ffffff;
-    border: 1px solid #86c3fa;
+    border: 1px solid #288be6;
     border-radius: 8px;
+    height: 16px;
+    background-color: #fff;
+    font-size: 0;
+    padding: 0;
+    margin: 4px 0 16px;
 }
 
 .level div {
-    margin: 1px;
-    height: 12px;
-    background-color: #288be6;
+    margin: 3px;
+    background: #288be6;
+    height: 10px;
     border-radius: 6px;
-}
-
-.portfolio {
-    margin: 0 0 120px;
-}
-
-.projects {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.projects li {
-    margin: 0 0 80px;
 }
 
 .project-image {
@@ -151,41 +135,35 @@ body {
     text-align: center;
 }
 
-.projects p {
-    margin: 0 0 24px;
-}
-
 .button {
+    background: #288be6;
+    color: white;
     padding: 6px 20px;
-    display: inline-block;
-    vertical-align: baseline;
     text-decoration: none;
-    text-transform: uppercase;
     border-radius: 4px;
-    background-color: #288be6;
-    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
 }
 
 .page-footer {
+    background: #00417d;
     padding: 40px 0;
-    background-color: #00417d;
-    color: #ffffff;
-}
-
-.page-footer a {
-    margin-left: 56px;
-    color: inherit;
-    text-decoration: none;
-    background-repeat: no-repeat;
-    background-position: left;
 }
 
 .footer-email {
+    background: url(img/icon-email-footer.svg) left no-repeat;
     padding-left: 30px;
-    background-image: url("img/icon-email-footer.svg");
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    margin-left: 56px;
 }
 
 .footer-phone {
+    background: url(img/icon-phone-footer.svg) left no-repeat;
     padding-left: 25px;
-    background-image: url("img/icon-phone-footer.svg");
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    margin-left: 56px;
 }
