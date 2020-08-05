@@ -39,6 +39,17 @@ h3 {
     background-position: left;
 }
 
+.theme-change {
+    display: inline-block;
+    color: #288be6;
+    border: #288be6 solid 1px;
+    border-radius: 10px;
+    padding: 10px 13px;
+    margin-left: 56px;
+    cursor: pointer;
+    line-height: normal;
+}
+
 .header-email {
     background-image: url(img/icon-email-header.svg);
     margin-left: 56px;
@@ -148,6 +159,15 @@ h3 {
 .page-footer {
     background: #00417d;
     padding: 40px 0;
+}
+
+.light-theme-footer {
+    border: solid #fff 1px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 56px;
 }
 
 .footer-email {
