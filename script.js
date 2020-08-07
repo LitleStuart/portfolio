@@ -2,6 +2,7 @@ const changeTheme = document.getElementById('changeTheme');
 const theme = document.getElementById('style');
 const keksImage = document.getElementById('keksImage');
 let darkThemeEnabled = true;
+let darkThemeMobileEnabled = false;
 
 changeTheme.addEventListener('click', () => {
     if (darkThemeEnabled) {

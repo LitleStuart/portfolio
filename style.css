@@ -112,17 +112,24 @@ h3 {
     text-align: left;
 }
 
-.skill-html {
-    background: url(img/icon-html.svg) left no-repeat;
-    padding-left: 35px;
+.skills-list dt {
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 32px;
     font-weight: 500;
 }
 
-.skill-css {
-    background: url(img/icon-css.svg) left no-repeat;
-    padding-left: 35px;
-    font-weight: 500;
+.skill-html {
+    background-image: url("img/icon-html.svg");
 }
+
+.skill-css {
+    background-image: url("img/icon-css.svg");
+}
+
+.skill-js {
+    background-image: url("img/icon-js.svg");
+}   
 
 .level {
     border: 1px solid #288be6;
@@ -159,15 +166,6 @@ h3 {
 .page-footer {
     background: #00417d;
     padding: 40px 0;
-}
-
-.light-theme-footer {
-    border: solid #fff 1px;
-    border-radius: 10px;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 56px;
 }
 
 .footer-email {
