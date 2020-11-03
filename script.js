@@ -11,7 +11,7 @@ changeTheme.addEventListener('click', () => {
         darkThemeEnabled = false;
     } else {
         theme.href = 'dark-theme/style.css';
-        keksImage.setAttribute('src', '../files/project1.jpg');
+        keksImage.setAttribute('src', 'files/project1.jpg');
         darkThemeEnabled = true;
     }
 })
