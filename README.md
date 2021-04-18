@@ -1,2 +1,2 @@
 # PORTFOLIO
-Я Мухорин Иван, учусь на отлично в 10 классе. Начал изучать верстку сайтов, так как в будущем хочу стать Web-программистом. Сейчас я пытаюсь верстать несложные сайты, чтобы накопить опыт Web-разработки. Если вы можете мне доверить верстку сайта, то мои контакты в "Шапке" и "Подвале" сайта :)
+I am Mukhorin Ivan, I am an excellent student in the 11th grade. I started to study site layout, as I want to become a Web-developer in the future. Now I am trying to typeset simple sites in order to gain experience in Web development. If you can entrust me with the layout of the site, then my contacts are in the "Header" and "Footer" of the site :)
