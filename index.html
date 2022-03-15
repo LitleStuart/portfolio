@@ -1,84 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link id="style" rel="stylesheet" href="dark-theme/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Портфолио Junior разработчика</title>
+  </head>
 
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-    <link id="style" rel="stylesheet" href="dark-theme/style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Портфолио Junior верстальщика</title>
-</head>
-
-<body>
+  <body>
     <header class="page-header">
-        <div class="container">
-            <a class="header-email" href="mailto:vanyamukhori@gmail.com">vanyamukhori@gmail.com</a>
-            <a class="header-phone" href="tel:+79041699891">+7 904 169 98 91</a>
-            <div class="theme-change" id="changeTheme">Сменить тему</div>
-        </div>
+      <div class="container">
+        <a class="header-email" href="mailto:vanyamukhori@gmail.com"
+          >vanyamukhori@gmail.com</a
+        >
+        <a class="header-phone" href="tel:+79041699891">+7 904 169 98 91</a>
+        <div class="theme-change" id="changeTheme">Сменить тему</div>
+      </div>
     </header>
 
     <section class="hero-image">
-        <div class="container">
-            <h1 class="heading">Мухорин Иван</h1>
-            <p>Junior верстальщик</p>
-        </div>
+      <div class="container">
+        <h1 class="heading">Мухорин Иван</h1>
+        <p>Junior разработчик</p>
+      </div>
     </section>
 
     <section class="intro">
-        <div class="container">
-            <h2 class="subheading">Давайте познакомимся</h2>
-            <figure class="user-image">
-                <img src="files/user-image.jpg" alt="My photo" width="100%">
-            </figure>
-            <h3>Пара слов о себе</h3>
-            <p>Я Мухорин Иван, учусь на отлично в 11 классе. Начал изучать верстку сайтов, так как в будущем хочу стать Web-программистом. Сейчас я пытаюсь верстать несложные сайты, чтобы накопить опыт Web-разработки. Если вы можете мне доверить верстку
-                сайта, то мои контакты в "Шапке" и "Подвале" сайта :)</p>
-            <h3>Чем могу быть полезен</h3>
-            <p>Могу сверстать сайт-одностраничник (или многостраничный, но простой сайт) на чистом HTML+CSS с простейшей CSS-анимацией (для более сложной анимации нужен JavaScript, которым я еще не владею)</p>
-            <h3>Мои навыки</h3>
-            <dl class="skills-list">
-                <dt class="skill-html">HTML</dt>
-                <dd class="level">
-                    <div style="width: 60%;">60%</div>
-                </dd>
-                <dt class="skill-css">CSS</dt>
-                <dd class="level">
-                    <div style="width: 40%;">40%</div>
-                </dd>
-                <dt class="skill-js">JS</dt>
-                <dd class="level">
-                    <div style="width: 10%;">10%</div>
-                </dd>
-            </dl>
-        </div>
+      <div class="container">
+        <h2 class="subheading">Давайте познакомимся</h2>
+        <figure class="user-image">
+          <img src="files/user-image.jpg" alt="My photo" width="100%" />
+        </figure>
+        <h3>Пара слов о себе</h3>
+        <p>
+          Я Мухорин Иван, окончил школу с золотой медалью, сдал ЕГЭ на 257
+          баллов. Начал изучать верстку сайтов, так как в будущем хочу стать
+          Web-программистом. Сейчас я пытаюсь верстать несложные сайты, чтобы
+          накопить опыт Web-разработки. Если вы можете мне доверить верстку
+          сайта, то мои контакты в "Шапке" и "Подвале" сайта :)
+        </p>
+        <h3>Чем могу быть полезен</h3>
+        <p>
+          Могу сверстать сайт-одностраничник (или многостраничный, но простой
+          сайт) на чистом HTML+CSS с простой CSS-анимацией
+        </p>
+        <h3>Мои навыки</h3>
+        <dl class="skills-list">
+          <dt class="skill-html">HTML</dt>
+          <dd class="level">
+            <div style="width: 60%">60%</div>
+          </dd>
+          <dt class="skill-css">CSS</dt>
+          <dd class="level">
+            <div style="width: 40%">40%</div>
+          </dd>
+          <dt class="skill-js">JS</dt>
+          <dd class="level">
+            <div style="width: 70%">70%</div>
+          </dd>
+        </dl>
+      </div>
     </section>
 
     <section class="portfolio">
-        <div class="container">
-            <h2 class="subheading">Мои работы</h2>
-            <figure class="project-image">
-                <img id="keksImage" src="files/project1.jpg" alt="Сайт инструктора Кекса" width="100%">
-            </figure>
-            <h3>Сайт инструктора Кекса</h3>
-            <a href="source/instructor_keks/index.html" class="button">открыть страницу</a>
-            <p>Небольшой лендинг о школе для начинающих котят</p>
-            <figure class="project-image" style="margin-top: 70px;">
-                <img src="files/blog.jpg" alt="Блог начинающего верстальщика" width="100%">
-            </figure>
-            <h3>Блог начинающего верстальщика</h3>
-            <a href="source/blog/index.html" class="button">открыть страницу</a>
-            <p>Статический блог про обучение HTML и CSS.</p>
-        </div>
+      <div class="container">
+        <h2 class="subheading">Мои работы</h2>
+        <figure class="project-image">
+          <img
+            id="keksImage"
+            src="files/project1.jpg"
+            alt="Сайт инструктора Кекса"
+            width="100%"
+          />
+        </figure>
+        <h3>Сайт инструктора Кекса</h3>
+        <a href="source/instructor_keks/index.html" class="button"
+          >открыть страницу</a
+        >
+        <p>Небольшой лендинг о школе для начинающих котят</p>
+        <figure class="project-image" style="margin-top: 70px">
+          <img
+            src="files/blog.jpg"
+            alt="Блог начинающего верстальщика"
+            width="100%"
+          />
+        </figure>
+        <h3>Блог начинающего верстальщика</h3>
+        <a href="source/blog/index.html" class="button">открыть страницу</a>
+        <p>Статический блог про обучение HTML и CSS.</p>
+      </div>
     </section>
 
     <footer class="page-footer">
-        <div class="container">
-            <a class="footer-email" href="mailto:vanyamukhori@gmail.com">vanyamukhori@gmail.com</a>
-            <a class="footer-phone" href="tel:+79041699891">+7 904 169 98 91</a>
-        </div>
+      <div class="container">
+        <a class="footer-email" href="mailto:vanyamukhori@gmail.com"
+          >vanyamukhori@gmail.com</a
+        >
+        <a class="footer-phone" href="tel:+79041699891">+7 904 169 98 91</a>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
